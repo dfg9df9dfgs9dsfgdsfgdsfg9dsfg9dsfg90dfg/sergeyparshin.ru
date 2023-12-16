@@ -57,7 +57,7 @@ body {
 }
 
 .card {
-  padding: 10px;
+  padding: 20px;
   background-color: #FFF;
   border-radius: 4px;
 }
@@ -136,7 +136,7 @@ body {
   display: block;
   position: relative;
   text-align: center;
-  font-size: 24px;
+  font-size: 12px;
   padding: 10px;
   font-family: "Press Start 2P", cursive;
   text-decoration: none;
