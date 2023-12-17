@@ -76,7 +76,7 @@ body {
 .header {
   max-width: 1200px;
   margin: auto;
-  padding: 1rem;
+  padding: 0rem;
   align-items: center;
   justify-content: center;
 
@@ -86,7 +86,7 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  transform: skew(-20deg, 10deg);
+  transform: skew(0, -10deg);
 }
 
 .sweet, .stuff{
@@ -111,7 +111,7 @@ body {
 
   span {
     display: block;
-    position: relative;
+    position: relative; right: 20px;
 
     &:before {
       content: attr(data-text);
