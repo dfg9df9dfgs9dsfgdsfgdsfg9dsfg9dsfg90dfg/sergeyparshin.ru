@@ -37,7 +37,7 @@ body {
 }
 
 .links ul li {
-  margin: 14px 0;
+  margin: 24px 0;
 }
 
 .link {
@@ -86,7 +86,7 @@ body {
   display: grid;
   align-items: center;
   justify-content: center;
-  transform: skew(0, -10deg);
+  transform: skew(-20deg, 10deg);
 }
 
 .sweet, .stuff{
@@ -94,13 +94,13 @@ body {
   display:block;
 }
 
-.sweet{margin-bottom: 0px;}
+.sweet{margin-bottom: 10px;}
 
 .sweet-title {
  color: #fde9ff;
-  font-weight: 900;
+  font-weight: 1000;
   text-transform: uppercase;
-  font-size: clamp(3rem, 10vw, 4rem);
+  font-size: clamp(4rem, 60vw, 4rem);
   line-height: 0.75em;
   text-align: center;
   text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff,
